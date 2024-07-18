@@ -1,8 +1,6 @@
 
 """
-TODO
-https://archive.ics.uci.edu/dataset/222/bank+marketing
-https://github.com/leztien/Projects-Portfolio/blob/main/CHECKLITST.md
+Utilities to download, unzip and load data
 """
 
 
