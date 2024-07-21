@@ -6,14 +6,11 @@ goal: classify customers of the bank who have been exposed to marketing activiti
 source: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 
-</br>
-
+<br>
 
 
 
 
 #### Links:
-
-https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 https://github.com/leztien/Projects-Portfolio/blob/main/CHECKLITST.md
