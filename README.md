@@ -1,4 +1,4 @@
-# Tree-based classification
+# Classification
 
 **title of the data:** "Bank Marketing"
 
@@ -20,29 +20,7 @@ Some assumptions and made-up aspects of the dataset have to be made for this pro
 - For this reason, a ML model will run periodically on the (constantly updated) dataset, to determine the customers with the highest probability to agree to a term deposit. Those customers will be contacted first.
 - or perhaps, before making a call to a preselected customer, a marketing agent will run the ML model to determine how probable it is that the customer will agree to a term deposit. If it is highly probable, then the agent will try to be more persuasive or prepare more offers connected to the term deposit. 
 
-
-
-
-
-CHATGPT:
-
-The goal of these campaigns is to determine whether a client will subscribe to a term deposit.
-
-Some attributes like 'duration' are known to have a high influence on the target variable, but they need careful handling since they are not known before the call is performed.
-
-Explore data preprocessing techniques, including handling of missing values, categorical encoding, and feature scaling.
-
-Apply and compare various machine learning algorithms such as Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, and Neural Networks.
-
-Evaluate model performance using metrics like accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix.
-
-Implement model validation techniques, including cross-validation.
-
-
 <br>
-
-
-
 
 ## Features of the data:
 
@@ -74,12 +52,65 @@ Implement model validation techniques, including cross-validation.
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")
   ```
 
+<br>
+
+## Frame the problem and look at the big picture
+
+- **Define the objective in business terms**: Increase revenue by focusing on the customers who are likely to agree to a term deposit.
+
+
+- **How will your solution be used?**: ...
+
+What are the current solutions?
+
+How should you frame this problem (supervised/unsupervised, online/offline, etc.)
+
+How should performance be measured?
+
+Is the performance measure aligned with the business objective?
+
+What would be the minimum performance needed to reach the business objective?
+
+What are comparable problems? Can you reuse experience or tools?
+
+Is human expertise available?
+
+How would you solve the problem manually?
+
+List the assumptions you or others have made so far.
+
+Verify assumptions if possible.
 
 
 
 
 
 
-#### Links:
+
+
+
+
+<br>
+
+## The Checklist:
 
 https://github.com/leztien/Projects-Portfolio/blob/main/CHECKLITST.md
+
+
+
+
+
+
+CHATGPT:
+
+The goal of these campaigns is to determine whether a client will subscribe to a term deposit.
+
+Some attributes like 'duration' are known to have a high influence on the target variable, but they need careful handling since they are not known before the call is performed.
+
+Explore data preprocessing techniques, including handling of missing values, categorical encoding, and feature scaling.
+
+Apply and compare various machine learning algorithms such as Logistic Regression, Decision Trees, Random Forests, Gradient Boosting, and Neural Networks.
+
+Evaluate model performance using metrics like accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix.
+
+Implement model validation techniques, including cross-validation.
