@@ -11,17 +11,6 @@ The [dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing) is publicl
 
 
 
-## Imaginary business settings
-Some assumptions and made-up aspects of the dataset have to be made for this project to seem relevant for a machine learning model, which is to be used in production to generate more revenue:
-
-- A similar marketing campaign will be conducted in near future.
-- The data at hand will be dynamic: the values of the columns concerning the number of calls and their duration will be updated after each call.
-- It will be important to know for the bank before making the (next) call, how probable it is that the client will agree to a term deposit during (or after) the next call. 
-- For this reason, a ML model will run periodically on the (constantly updated) dataset, to determine the customers with the highest probability to agree to a term deposit. Those customers will be contacted first.
-- or perhaps, before making a call to a preselected customer, a marketing agent will run the ML model to determine how probable it is that the customer will agree to a term deposit. If it is highly probable, then the agent will try to be more persuasive or prepare more offers connected to the term deposit. 
-
-<br>
-
 ## Features of the data:
 
 
@@ -54,16 +43,28 @@ Some assumptions and made-up aspects of the dataset have to be made for this pro
 
 <br>
 
+
+
+## Assumptions and imaginary business settings
+Some assumptions and made-up aspects of the dataset have to be made for this project to seem relevant for a machine learning model, which is to be used in production to generate more revenue:
+
+- A similar marketing campaign will be conducted in near future.
+- The data at hand will be dynamic: the values of the columns concerning the number of calls and their duration will be updated after each call.
+- It will be important to know for the bank before making the (next) call, how probable it is that the client will agree to a term deposit during (or after) the next call. 
+- For this reason, a ML model will run periodically on the (constantly updated) dataset, to determine the customers with the highest probability to agree to a term deposit. Those customers will be contacted first.
+- or perhaps, before making a call to a preselected customer, a marketing agent will run the ML model to determine how probable it is that the customer will agree to a term deposit. If it is highly probable, then the agent will try to be more persuasive or prepare more offers connected to the term deposit. 
+
+<br>
+
 ## Frame the problem and look at the big picture
 
 - **Define the objective in business terms**: Increase revenue by focusing on the customers who are likely to agree to a term deposit.
 
+- **How will your solution be used?**: during the next campaign promoting term deposits, my model will be run regularly (let's say every day or week) to determine the customers who are very likely to agree to a term deposit on the next phone call. These customers will be called first and  some offers (possibly related to a term deposit) will be prepared by the agent before the call.
 
-- **How will your solution be used?**: ...
+- **What are the current solutions?**: There are currently no solutions to determine how likely is a customer to agree to a term deposit.
 
-What are the current solutions?
-
-How should you frame this problem (supervised/unsupervised, online/offline, etc.)
+- **How should you frame this problem (supervised/unsupervised, online/offline, etc.)**: supervised, classification, binary target, offline learning.
 
 How should performance be measured?
 
