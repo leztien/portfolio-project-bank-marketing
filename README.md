@@ -66,21 +66,12 @@ Some assumptions and made-up aspects of the dataset have to be made for this pro
 
 - **How should you frame this problem (supervised/unsupervised, online/offline, etc.)**: supervised, classification, binary target, offline learning.
 
-How should performance be measured?
+- **How should performance be measured?**: ...
 
-Is the performance measure aligned with the business objective?
+- **Is the performance measure aligned with the business objective?**: ...
 
-What would be the minimum performance needed to reach the business objective?
+- **What would be the minimum performance needed to reach the business objective?**: ...
 
-What are comparable problems? Can you reuse experience or tools?
-
-Is human expertise available?
-
-How would you solve the problem manually?
-
-List the assumptions you or others have made so far.
-
-Verify assumptions if possible.
 
 
 
