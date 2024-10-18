@@ -78,10 +78,6 @@ Some assumptions and made-up aspects of the dataset have to be made for this pro
 
 
 
-
-
-
-
 <br>
 
 ## The Checklist:
